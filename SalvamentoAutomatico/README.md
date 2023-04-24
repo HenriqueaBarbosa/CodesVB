@@ -10,7 +10,7 @@
 
 >Ainda no visual basic em VBAProject abra o modulo (esta pasta de trabalho) e cole o código do repositório com nome Esta-pasta-de-trabalho.vb
 
-<h6>Pronto agora sua planilha estará com auto save a cada 60 segundos, que pode ser alterado de acordo com sua preferência no modulo na variável abaixo:
+<h6>Reinicie a sua planilha e agora sua planilha estará com auto save a cada 60 segundos, que pode ser alterado de acordo com sua preferência no modulo na variável abaixo:
   
  ```VB.NET
  Public Const cRunIntervalSeconds = 60 '1 minuto 
