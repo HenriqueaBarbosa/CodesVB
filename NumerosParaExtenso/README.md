@@ -1,6 +1,6 @@
 <h1>Fórmula para converter números para extenso</h1>
 
-<p>1 - Para nossa fórmula funcionar corretamente será preciso criar um módulo no excel aonde será colado nosso código em VB.NET</p>
+<p>1 - Para nossa fórmula funcionar corretamente será preciso criar um módulo no excel aonde será colado nosso código em VB</p>
 
 >Pressione Alt+F11 para abrir o editor de Visual Basic (no Mac, pressione FN+ALT+F11) e clique em Inserir > Módulo. Uma nova janela de módulo aparece no lado direito do editor Visual Basic.
 
