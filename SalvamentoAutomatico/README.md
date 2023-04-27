@@ -4,7 +4,7 @@
 
 >Pressione Alt+F11 para abrir o editor de Visual Basic (no Mac, pressione FN+ALT+F11) e clique em Inserir > Módulo. Uma nova janela de módulo aparece no lado direito do editor Visual Basic.
 
-<p>2 - Depois da ciração do módulo basta copiar o código do do arquivo Módulo.vb do repositório e colar</p>
+<p>2 - Depois da criação do módulo basta copiar o código do do arquivo Módulo.vb do repositório e colar</p>
 
 <p>3 - Para um melhor entendimento esse repositório foi separado por (módulo) e (esta pasta de trabalho)</p>
 
