@@ -1,6 +1,6 @@
 <h1>Planilha com auto-save</h1>
 
-<p>1 - Para nossa planilha funcionar corretamente será preciso criar um módulo e um esta pasta de trabalho no excel aonde será colado nosso código em VB.NET</p>
+<p>1 - Para nossa planilha funcionar corretamente será preciso criar um módulo e um esta pasta de trabalho no excel aonde será colado nosso código em VB</p>
 
 >Pressione Alt+F11 para abrir o editor de Visual Basic (no Mac, pressione FN+ALT+F11) e clique em Inserir > Módulo. Uma nova janela de módulo aparece no lado direito do editor Visual Basic.
 
