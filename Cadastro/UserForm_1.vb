@@ -30,7 +30,7 @@ Private Sub cadastrarBtn_Click()
         MsgBox "Preencher campo cidade é obrigatório"
         Exit Sub
     ElseIf ufTexto.Value = "" Then
-        MsgBox "Preencher campo nome é obrigatório"
+        MsgBox "Preencher campo uf é obrigatório"
         Exit Sub
     End If
     
