@@ -94,3 +94,40 @@ Private Sub UserForm_Initialize()
     novoBtn_Click
 
 End Sub
+
+Private Sub pesquisarBtnDois_Click()
+
+    'Em ferramentas -> referencias... -> habilitar a referencia(Microsoft XML, V6) e
+    'Microsoft HTML OBJECT LIBRARY
+
+    Dim api As New MSXML2.ServerXMLHTTP60
+    Dim HTML As New HTMLDocument
+    Dim cep As String
+    Dim url As String
+    
+    On Error GoTo fim:
+    
+    cep = cepTexto.Value
+    
+    url = "https://viacep.com.br/ws/" & cep & "/xml/"
+    
+    api.Open "GET", url
+    api.send
+    
+    HTML.body.innerHTML = api.responseText
+    enderecoTexto.Value = HTML.getElementsByTagName("logradouro")(0).innerText
+    bairroTexto.Value = HTML.getElementsByTagName("bairro")(0).innerText
+    cidadeTexto.Value = HTML.getElementsByTagName("localidade")(0).innerText
+    ufTexto.Value = HTML.getElementsByTagName("uf")(0).innerText
+    
+    Exit Sub
+    
+fim:
+    enderecoTexto.Value = ""
+    bairroTexto.Value = ""
+    cidadeTexto.Value = ""
+    ufTexto.Value = ""
+    
+    MsgBox "CEP inválido, por favor verificar se está correto ou digitar endereço manualmente", vbQuestion
+    
+End Sub
